@@ -1,0 +1,18 @@
+.img-wrapper { 
+	display: inline-block; 
+	width: 38%; 
+	padding: 10px 15px; 
+}
+/* Image adapts to screen size */
+.img-wrapper > img { 
+	width: 100%; 
+}
+.black-background {
+	background-color: black;
+}
+/*.st0 {
+	fill:#333 !important;
+}*/
+
+#beerGraphic:hover #lGrain:hover {fill: red;}
+#beerGraphic:hover #rGrain:hover {fill: red;}
